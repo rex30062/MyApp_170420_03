@@ -64,5 +64,7 @@ public class AddActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        finish();
     }
 }
